@@ -1,0 +1,2 @@
+# CDN
+GitHub statically CDN
