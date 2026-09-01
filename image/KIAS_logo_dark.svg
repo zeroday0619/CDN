@@ -1,0 +1,23 @@
+<svg viewBox="45 45 610 115" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>KIAS Logo</title>
+  <desc>Kurumi Intranet Account System 다크 테마 로고</desc>
+
+  <style>
+    .logo-primary { fill: #f2f0ff; }
+    .logo-divider { stroke: #9189c7; }
+    .logo-secondary { fill: #c4beff; }
+    .logo-accent { fill: #9b91ff; }
+  </style>
+
+  <text class="logo-primary" x="60" y="130" font-family="system-ui, -apple-system, sans-serif"
+    font-size="96" font-weight="700" letter-spacing="12">KIAS</text>
+
+  <line class="logo-divider" x1="422" y1="50" x2="422" y2="155" stroke-width="1.5"/>
+
+  <text class="logo-secondary" x="446" y="95" font-family="system-ui, -apple-system, sans-serif"
+    font-size="16" font-weight="400" letter-spacing="3">KURUMI INTRANET</text>
+  <text class="logo-secondary" x="446" y="118" font-family="system-ui, -apple-system, sans-serif"
+    font-size="16" font-weight="400" letter-spacing="3">ACCOUNT SYSTEM</text>
+
+  <rect class="logo-accent" x="60" y="148" width="350" height="3" rx="1.5"/>
+</svg>

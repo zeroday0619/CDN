@@ -1,25 +1,66 @@
-<svg width="68000" height="20000" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="45 45 610 115" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
   <title>KIAS Logo</title>
   <desc>Kurumi Intranet Account System 로고</desc>
 
   <style>
-    .logo-primary { fill: #27234f; }
-    .logo-divider { stroke: #7770a3; }
-    .logo-secondary { fill: #55518c; }
-    .logo-accent { fill: #5b4ce6; }
+    .logo-primary {
+      fill: #27234f;
+      stroke: #f2f0ff;
+      stroke-width: 6;
+      paint-order: stroke fill;
+      stroke-linejoin: round;
+    }
+    .logo-divider-halo {
+      stroke: #f2f0ff;
+      stroke-width: 6;
+    }
+    .logo-divider {
+      stroke: #7770a3;
+      stroke-width: 1.5;
+    }
+    .logo-secondary {
+      fill: #55518c;
+      stroke: #f2f0ff;
+      stroke-width: 2;
+      paint-order: stroke fill;
+      stroke-linejoin: round;
+    }
+    .logo-accent {
+      fill: #5b4ce6;
+      stroke: #f2f0ff;
+      stroke-width: 2;
+      paint-order: stroke fill;
+    }
 
     @media (prefers-color-scheme: dark) {
-      .logo-primary { fill: #f2f0ff; }
+      .logo-primary {
+        fill: #f2f0ff;
+        stroke: #27234f;
+        stroke-width: 2.5;
+      }
+      .logo-divider-halo {
+        stroke: #27234f;
+        stroke-width: 5;
+      }
       .logo-divider { stroke: #9189c7; }
-      .logo-secondary { fill: #c4beff; }
-      .logo-accent { fill: #9b91ff; }
+      .logo-secondary {
+        fill: #c4beff;
+        stroke: #27234f;
+        stroke-width: 0.8;
+      }
+      .logo-accent {
+        fill: #9b91ff;
+        stroke: #27234f;
+        stroke-width: 1.4;
+      }
     }
   </style>
 
   <text class="logo-primary" x="60" y="130" font-family="system-ui, -apple-system, sans-serif"
     font-size="96" font-weight="700" letter-spacing="12">KIAS</text>
 
-  <line class="logo-divider" x1="422" y1="50" x2="422" y2="155" stroke-width="1.5"/>
+  <line class="logo-divider-halo" x1="422" y1="50" x2="422" y2="155"/>
+  <line class="logo-divider" x1="422" y1="50" x2="422" y2="155"/>
 
   <text class="logo-secondary" x="446" y="95" font-family="system-ui, -apple-system, sans-serif"
     font-size="16" font-weight="400" letter-spacing="3">KURUMI INTRANET</text>
